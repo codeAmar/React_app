@@ -1,14 +1,16 @@
 import React from "react";
-import "./Person.css";
+import classes from "./Person.css";
 
 const person = (props) => { 
     return(
-        <div className = "name_cards">
-            <p className = {props.colorp} onClick={props.click}>Name : {props.name}</p>
-            <p className = {props.colorp} onClick={props.click}>Age : {props.age}</p>
-            <p className = {props.colorp} onClick={props.click}>Gender : {props.gender}</p>
-            <p className = {props.colorp} onClick={props.click}>Hobby : {props.children}</p>
+        <div className = {classes.name_cards}>
+            <p>Name : {props.name}</p>
+            <p>Age : {props.age}</p>
+            <p>Gender : {props.gender}</p>
+            <p>Hobby : {props.children}</p>
+        <h1 className = "name_cards">header</h1>
         </div>
+        
     )
 };
 

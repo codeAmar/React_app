@@ -4,14 +4,21 @@
     padding: 2%;
     background-color:rgb(241, 97, 29);
     border-radius: 10px;
+    opacity: 0.5;
     box-shadow: 1px 5px 5px brown;
   }
-  
-  .orange_class{
-    background-color:rgb(241, 97, 29);
+
+.name_cards:hover{
+  opacity: 1;
+}
+
+  @media(max-width:600px){
+    .name_cards{
+      padding : 20%;
+    }
   }
   
-  .red{
-   background-color: red;
-  }
+  
+
+
   
